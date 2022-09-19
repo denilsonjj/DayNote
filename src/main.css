@@ -1,0 +1,17 @@
+main {
+  flex: 1;
+  margin-left: 350px;
+}
+main ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  list-style: none;
+}
+@media screen and (max-width: 1000){
+  main {
+    margin-left: 0;
+  }
+}
+
+
